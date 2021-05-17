@@ -1,5 +1,14 @@
 import './styles/global.scss'
 
+import yellowWave from './assets/yellow-wave.png'
+import Header from './components/header'
+
 export function App() {
-    return <h1>Hello World</h1>
+    return (
+    <>
+        {/* <img src={yellowWave} alt="" /> */}
+        <Header />
+        
+    </>
+    )
 }

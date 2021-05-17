@@ -4,6 +4,29 @@
     box-sizing: border-box;
 }
 
-body {
-    font: Arial, Helvetica, sans-serif;
+@font-face {
+	font-family: GorditaBlack;
+	src: url("../assets/fonts/GorditaBlack.otf")
 }
+
+@font-face {
+	font-family: GorditaBold;
+	src: url("../assets/fonts/GorditaBold.otf")
+}
+
+@font-face {
+	font-family: GorditaMedium;
+	src: url("../assets/fonts/GorditaMedium.otf")
+}
+
+@font-face {
+	font-family: GorditaRegular;
+	src: url("../assets/fonts/GorditaRegular.otf")
+}
+
+body {
+    font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+

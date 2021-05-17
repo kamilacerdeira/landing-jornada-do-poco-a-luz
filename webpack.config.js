@@ -24,6 +24,10 @@ module.exports = {
     ],
     module: {
         rules: [
+            {    
+                test: /\.(png|woff|woff2|eot|ttf|otf)$/,
+                loader: "file-loader"
+            },
             {
                 test: /\.(j|t)sx$/,
                 exclude: /node_modules/,
