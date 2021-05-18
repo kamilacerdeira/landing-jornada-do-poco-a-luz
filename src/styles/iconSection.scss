@@ -1,0 +1,35 @@
+.yellow-wave {
+    width: 100%;
+    margin-top: -10vw;
+}
+
+.icon-section {
+    background-color: var(--yellow);
+    display: flex;
+    justify-content: center;
+    margin-top: -5px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;    
+
+    img {
+        width: 30%;
+    }
+
+    p {
+        text-align: center;
+        font-family: 'GorditaMedium';
+        margin: 15px 60px;
+
+        span {
+            font-family: 'GorditaBlack';
+        }
+    }
+}
