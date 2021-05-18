@@ -4,7 +4,7 @@ import '../styles/form.scss'
 
 const Form = props => {
     return (
-        <div className="form">
+        <div className="form" data-aos="fade" data-aos-duration="2000">
             <form>
                 <label>
                     Deixe o seu email e entre para o <br/> grupo de <span>WhatsApp</span> da jornada.
