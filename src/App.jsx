@@ -2,6 +2,7 @@ import './styles/global.scss'
 
 import Header from './components/header'
 import IconSection from './components/IconSection'
+import About from './components/About'
 
 export function App() {
     return (
@@ -9,7 +10,7 @@ export function App() {
         {/* <img src={yellowWave} alt="" /> */}
         <Header />
         <IconSection />
-        
+        <About />
     </>
     )
 }

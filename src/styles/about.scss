@@ -1,0 +1,28 @@
+.about {
+    background: url("../assets/pedroAugusto.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 682px;
+
+    display: flex;
+
+    span {
+        font-family: 'GorditaBlack';
+	    font-size: calc(18px + 1vw);
+        color: var(--yellow);
+        margin-bottom: 15px;
+    }
+
+    p {
+        font-family: 'GorditaRegular';
+        color: #fff;
+    }
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin: 0 20%;
+}
