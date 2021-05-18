@@ -1,0 +1,47 @@
+:root {
+    --yellow: #F2C641;
+    --green: #34ee7a;
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+
+    label {
+        font-family: 'GorditaMedium';
+        color: #fff;
+        margin-bottom: 15px;
+
+        span {
+            font-family: 'GorditaBold';
+            color: var(--green);
+        }
+    }
+
+    input {
+        font-family: 'GorditaMedium';
+        font-weight: normal;
+        padding: 8px;
+        outline: none;
+    }
+
+    button {
+        font-family: 'GorditaBlack';
+        background-color: var(--yellow);
+
+        border: none;
+        outline: none;
+        padding: 5px;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+
+}
