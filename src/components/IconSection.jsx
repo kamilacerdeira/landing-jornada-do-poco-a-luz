@@ -1,6 +1,5 @@
 import '../styles/iconSection.scss'
 
-import yellowWave from '../assets/yellow-wave.png'
 import iconBear from '../assets/iconBear.png'
 import iconBox from '../assets/iconBox.png'
 import iconHeart from '../assets/iconHeart.png'
@@ -10,7 +9,6 @@ const IconSection = props => {
 
     return (
         <>
-            <img src={yellowWave} alt="" className="yellow-wave" />
             <div className="icon-section">
                 <div className="icons" data-aos="fade" data-aos-once="true" data-aos-duration="2000" data-aos-delay="300">
                     <img src={iconBear} alt="icon" />

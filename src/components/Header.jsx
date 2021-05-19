@@ -7,6 +7,8 @@ import Form from './Form'
 // ASSETS
 import logo from '../assets/logo.png'
 import imgHeader from '../assets/Estátua.png'
+import yellowWave from '../assets/yellow-wave.png'
+
 
 const Header = props => {
     return (
@@ -16,8 +18,12 @@ const Header = props => {
             </div>
             <div className="header-section">
                 <Form />
-                <img src={imgHeader} alt="Estátua" />
+                {/* <div className="header-section-img"> */}
+                    <img src={imgHeader} alt="Estátua" />
+                {/* </div> */}
             </div>
+            <img src={yellowWave} alt="" className="yellow-wave" />
+
         </div>
     )
 }

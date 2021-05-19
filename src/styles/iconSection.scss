@@ -1,7 +1,3 @@
-.yellow-wave {
-    width: 100%;
-    margin-top: -10vw;
-}
 
 .icon-section {
     background-color: var(--yellow);
@@ -16,10 +12,8 @@
 .icons {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    flex-shrink: 0;
     align-items: center;
-    width: 25%;    
+    width: 25%;  
 
     img {
         width: 30%;
@@ -28,10 +22,42 @@
     p {
         text-align: center;
         font-family: 'GorditaMedium';
-        margin: 15px 60px;
+        margin: 2vw 4.5vw;
 
         span {
             font-family: 'GorditaBlack';
         }
+    }
+}
+
+// MOBILE
+
+@media (max-width: 1100px) {
+    .icons {
+        width: 30%;
+    }
+}
+
+@media (max-width: 500px) {
+    .icon-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .icons {
+        width: 70%;
+        margin: 25px 0;
+
+        p {
+            margin: 3.5vw 4.5vw;
+        }
+    }
+
+    .icons:first-child {
+        margin-top: 0;
+    }
+
+    .icons:last-child {
+        margin-bottom: 0;
     }
 }

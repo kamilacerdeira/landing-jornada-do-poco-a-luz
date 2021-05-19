@@ -2,6 +2,7 @@
     background: url("../assets/pedroAugusto.png");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     height: 682px;
 
     display: flex;
@@ -25,4 +26,32 @@
     justify-content: center;
     width: 30%;
     margin: 0 20%;
+}
+
+@media (max-width: 800px) {
+    .about-content {
+        width: 45%;
+        margin: 0 10%;
+    }
+}
+
+@media (max-width: 500px) {
+    .about {
+        background: url("../assets/pedroAugustoMobile.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+        justify-content: center;
+
+        p {
+            text-align: justify;
+        }
+    }
+
+    .about-content {
+        width: 80%;
+        margin: 7% 10%;
+        justify-content: flex-start;
+    }
 }
