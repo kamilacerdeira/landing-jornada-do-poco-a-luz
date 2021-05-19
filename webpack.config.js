@@ -15,6 +15,7 @@ module.exports = {
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
     },
     devServer: {
+        historyApiFallback: true,
         contentBase: path.resolve(__dirname, 'public')
     },
     plugins: [
