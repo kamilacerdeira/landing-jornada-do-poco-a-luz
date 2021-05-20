@@ -11,31 +11,30 @@ form {
     width: 73%;
 
     label {
-        font-family: 'GorditaMedium';
         font-size: calc(12px + 0.75vw);
         color: #fff;
         margin-bottom: 15px;
 
         span {
-            font-family: 'GorditaBold';
-            color: var(--green);
+            font-size: calc(14px + 0.75vw);
+            font-weight: 700;
+            color: var(--yellow);
         }
     }
 
     input {
-        font-family: 'GorditaMedium';
         font-weight: normal;
-        padding: 8px;
+        padding: 10px;
         outline: none;
     }
 
     button {
-        font-family: 'GorditaBlack';
         background-color: var(--yellow);
+        font-weight: 700;
 
         border: none;
         outline: none;
-        padding: 5px;
+        padding: 10px;
         margin-top: 15px;
         cursor: pointer;
     }
@@ -49,9 +48,7 @@ form {
         label {
             font-size: calc(10px + 0.75vw);
         }
-        input {
-            padding: 4px;
-        }
+        
         button {
             margin-top: 10px;
         }
@@ -62,9 +59,7 @@ form {
     .form {
         width: 100%;
         justify-content: center;
-    }
-
-    
+    }   
 }
 
 @media (max-width: 500px) {

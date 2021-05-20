@@ -1,4 +1,5 @@
 import '../styles/form.scss'
+import swal from 'sweetalert'
 
 const Form = props => {
 
@@ -10,9 +11,10 @@ const Form = props => {
         if (emailValue && emailValid) {
             form.submit()
         } else if (!emailValue){
-            alert('Por favor insira um e-mail!')
+            swal("Campo vazio", "Por favor, insira um e-mail", "warning");
         } else {
-            alert('Por favor insira um e-mail válido')
+            swal("E-mail inválido", "Por favor, insira um e-mail válido", "warning");
+
         }
     }
 
@@ -20,10 +22,15 @@ const Form = props => {
         <div className="form">
             <form method="POST" action="./activecampaign.php" id="form">
                 <label>
-                    Deixe o seu email e entre para o <br/> grupo de <span>WhatsApp</span> da jornada.
+                    <span>Se você acha que não tem nenhum defeito, pode fechar esta janela.</span> <br/>
+                    <strong>Mas se você sabe que precisa melhorar, tenho um convite irrecusável.</strong>
+                    <p> Nós estamos enfraquecidos pela sociedade moderna, que nos induz a viver como crianças 
+                        mimadas - chegou o momento de sair do poço e amadurecer. <br/> <br/> Deixe o seu email abaixo e entre
+                        para o grupo do whatsapp da jornada:
+                    </p>
                 </label>
                 <input name="email" type="email" placeholder="Email:" id="email"/>
-                <button type="button" onClick={() => sendEmail() }>Call to action</button>
+                <button type="button" onClick={() => sendEmail() }>Entrar no grupo da jornada</button>
             </form>
         </div >
     )

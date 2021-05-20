@@ -22,7 +22,7 @@ const Header = props => {
                     <img src={imgHeader} alt="Estátua" />
                 {/* </div> */}
             </div>
-            <img src={yellowWave} alt="" className="yellow-wave" />
+            {/* <img src={yellowWave} alt="" className="yellow-wave" /> */}
 
         </div>
     )

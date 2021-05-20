@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     margin-top: -5px;
-    padding-top: 50px;
+    padding-top: 80px;
     padding-bottom: 70px;
 
 }
@@ -20,13 +20,13 @@
     }
 
     p {
+        font-weight: 500;
         text-align: center;
-        font-family: 'GorditaMedium';
-        margin: 2vw 4.5vw;
+        margin: 2vw 4vw;
+    }
 
-        span {
-            font-family: 'GorditaBlack';
-        }
+    span {
+        font-weight: 700;
     }
 }
 
