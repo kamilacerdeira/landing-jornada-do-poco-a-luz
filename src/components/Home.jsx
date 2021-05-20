@@ -5,6 +5,7 @@ import '../styles/aos.css';
 import Header from './Header'
 import IconSection from './IconSection'
 import About from './About'
+import Footer from './Footer';
 
 export function Home() {
 
@@ -17,6 +18,7 @@ export function Home() {
         <Header />
         <IconSection />
         <About />
+        <Footer />
     </>
     )
 }

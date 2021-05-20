@@ -5,7 +5,7 @@ import Form from './Form'
 
 
 // ASSETS
-import logo from '../assets/logo.png'
+import logo from '../assets/logo2.png'
 import imgHeader from '../assets/Estátua.png'
 import yellowWave from '../assets/yellow-wave.png'
 
