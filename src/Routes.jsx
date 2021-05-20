@@ -9,7 +9,7 @@ export default props => {
         <BrowserRouter>
             <Switch>
                 <Route path='/' exact component={Home} />
-                <Route path='/thankYou' component={ThankYou} />
+                <Route path='/obrigado' component={ThankYou} />
             </Switch>
         </BrowserRouter>
     )
